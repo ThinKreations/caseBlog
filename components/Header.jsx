@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
-import logo from '../src/logo s_fondo.PNG'
+import logo from '../src/logo.png'
 export default function Header(){
     return(
         <>
