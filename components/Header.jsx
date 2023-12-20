@@ -8,7 +8,7 @@ export default function Header(){
         <>
         <div className={styles.header}>  
                 <center>
-                <Image className={styles.image} src={logo} width={500} height={108}/>
+                <Image className={styles.image} src={logo} width={500} height={108} alt="Logo"/>
                 </center>
         </div>
         </>

@@ -8,6 +8,9 @@ Desarrollado con Next.js.
 ## Link del drive
 https://1drv.ms/w/s!Al4qHUw1X4aFgrQ7I1fEv_VhtfZoZg?e=b1udYY
 
+## Link LiveShare
+https://prod.liveshare.vsengsaas.visualstudio.com/join?C9A8EEE4105B83230F2CCD7E2901BF820179
+
 ## Reparticion de temas
 1. **El memo**
    - Case integrated
