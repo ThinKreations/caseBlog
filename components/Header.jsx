@@ -14,13 +14,10 @@ export default function Header(){
                 <Image className={styles.image} src={logo} width={250} height={52} alt="Logo"/>
             </center>
             <div>
-                <button type="button" className={styles.btn}>Incio</button>
-                <button type="button" className={styles.btn}>Herramientas automatizdas</button>
-                <button type="button" className={styles.btn}>Herramientas CASE</button>
-                <button type="button" className={styles.btn}>Finalidad CASE</button>
-                <button type="button" className={styles.btn}>Upper CASE</button>
-                <button type="button" className={styles.btn}>Lower CASE</button>
-                <button type="button" className={styles.btn}>Integrated CASE</button>
+                <a href="#inicio"><button type="button" className={styles.btn}>Incio</button></a>
+                <a href="#herramientas-automatizadas"  ><button type="button" className={styles.btn}>Herramientas automatizdas</button></a>
+                <a href="#herramientas-case"><button type="button" className={styles.btn}>Herramientas CASE</button></a>
+                <a href="https://cass.best"><button type="button" className={styles.btn}>Enlaces de interez</button></a>
             </div>
         </div>
         </>
