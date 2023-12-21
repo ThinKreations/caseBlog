@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css"
 import herramientas1 from '../src/automatizadas1.png'
 import diagrama1 from '../src/diagrama_1.png'
 import gantt1 from '../src/gantt_1.png'
-import auto from '../src/auto.png'
+import auto from '../src/auto.PNG'
 export default function Home() {
   return (
     
