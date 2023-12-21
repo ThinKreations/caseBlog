@@ -104,7 +104,7 @@ export default function Home() {
                     <p>Automatiza la documentación de la aplicación ya que descubre y genera la documentación automáticamente y autónomamente debido a la información otorgada tanto por el usuario y el procesamiento SAP. Así como es capaz de generar la documentación básica, debido a su compatibilidad con los sistemas ALM (Aplication Lifecycle Managment) y las cadenas de herramientas “DevOps” puede generar la documentación necesaria para ambas como el ciclo de vida que tendrá el sistema.</p>
                   </font>
                 </div>
-                <p><a href="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" className={styles.link_clear} target='_blank'><Image src={auto} width={300} height={300} className={styles.imageCircle}/><br/><center>Haz clic en la imagen</center></a></p><br/>
+                <a href="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" className={styles.link_clear} target='_blank'><Image src={auto} width={300} height={300} className={styles.imageCircle}/><br/><center><p>Haz clic en la imagen para ver el video</p></center></a><br/>
                 
                 {/* 
                 <video autoPlay loop style={{ width: '500px', height: '500px' }}>
