@@ -6,3 +6,23 @@ html, body{
   background-color: rgb(220, 220, 220);
   font-family: Work Sans;
 }
+body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+body::-webkit-scrollbar-button:increment,.productoRelacionadoC::-webkit-scrollbar-button {
+  display: none;
+} 
+
+body::-webkit-scrollbar-thumb {
+  background-color: #808080;
+  border: 2px solid white;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}

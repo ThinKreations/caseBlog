@@ -48,6 +48,26 @@
   src: url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap);
 }
 
+.menu{
+  list-style-type: none;
+  margin: 0vh;
+  padding: 0vh;
+  background-color: rgb(245, 245, 220);
+  overflow: hidden;
+  display: flex;
+  color:black;
+  /* position:fixed; */
+}
+
+.menu a{
+  float: left;
+  display: block;
+  color: rgb(0, 219, 235);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .container{
   width: 100%;
   justify-content: center;
@@ -57,20 +77,21 @@
   margin-bottom: 5vw;
   padding-top: 2vw;
   padding-bottom: 2vw;
-  border-top: 2px solid rgb(255,255,255);
-  border-bottom: 2px solid rgb(255,255,255);
-  background-image: linear-gradient(to right, rgb(170, 153, 1) 0%, #761c8d 100%);
+  background-image: linear-gradient(to right, rgb(170, 153, 1) 0%, rgb(118, 28, 141) 100%);
   width: 100%;
   transition:0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgb(150,150,150);
 }
 .container_2{
   width: 65vw;
   margin-top: 5vw;
   text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.image_1{
-  position: fixed;
-  transform: translate(0,100);
+.container_3{
+  width: 60%;
 }
 /*  CSS para  */
 .header{
@@ -81,8 +102,8 @@
   height: 200px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5vh;
-  border-bottom: 2px solid rgb(255,255,255);
+  margin-bottom: 5vw;
+  box-shadow: 0px 0px 10px rgb(150,150,150);
 }
 .footer{
   padding: 15px;
@@ -94,6 +115,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10vh;
+  box-shadow: 0px 0px 10px rgb(150,150,150);
 }
 .footerL{
   width: 35%;
@@ -109,18 +131,23 @@
 }
 
 /* Elementos */
+.image_1{
+  width: 30%;
+  height: 30%;
+  transform: translate(0,100);
+}
 .titulos{
   color:white;
 }
 .nombres:hover{
-  text-shadow: 0px 0px 3px rgb(220,220,220);
+  text-shadow: 0px 0px 5px rgb(220,220,220);
 }
 .link_clear{
   text-decoration: none;
   color: white;
 }
 .link_clear:hover{
-  text-shadow: 0px 0px 3px rgb(220,220,220);
+  text-shadow: 0px 0px 5px rgb(220,220,220);
 }
 
 @media screen and (max-width: 600px) {
