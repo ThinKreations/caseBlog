@@ -104,8 +104,9 @@ export default function Home() {
                     <p>Automatiza la documentación de la aplicación ya que descubre y genera la documentación automáticamente y autónomamente debido a la información otorgada tanto por el usuario y el procesamiento SAP. Así como es capaz de generar la documentación básica, debido a su compatibilidad con los sistemas ALM (Aplication Lifecycle Managment) y las cadenas de herramientas “DevOps” puede generar la documentación necesaria para ambas como el ciclo de vida que tendrá el sistema.</p>
                   </font>
                 </div>
+                <center>
                 <a href="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" className={styles.link_clear} target='_blank'><Image src={auto} width={300} height={300} className={styles.imageCircle}/><br/><center><p>Haz clic en la imagen para ver el video</p></center></a><br/>
-                
+                  </center>                
                 {/* 
                 <video autoPlay loop style={{ width: '500px', height: '500px' }}>
                   <source src="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" />
@@ -114,6 +115,81 @@ export default function Home() {
               </div>
             </center>
         </div>
+        <div className={styles.container_Y3}>
+            <center><h1 className={styles.titulos} id="finalidad">Herramientas L-CASE (Lower CASE)</h1></center>
+            <center>
+              <div className={styles.container_2}>
+                <div className={styles.container_3}>
+                  <font size="4" face="Quicksand">
+                    <p>Este tipo de herramientas CASE se dedican principalmente a: </p>
+                    <br></br>
+                    <ul>
+                      <li>Semi-automatizar la generación de código.</li>
+                      <li>Crear programas que detecten errores. </li>
+                      <li>Depurar programas o pruebas. </li>
+                      <li>Automatizar la documentación de la aplicación. </li>
+                    </ul>
+                    <br/><br/>
+                    <p>Una herramienta considerada de Lower CASE es “Worksoft” ya que permite varias de las funciones anteriores, como prueba de los anterior, la herramienta ayuda a la automatización de los desarrollos “Agil-DevOps” para aplicaciones empresariales complejas mediante el procesamiento de datos se SAP (Sistemas, Aplicaciones y Productos).</p>
+                    <br/><br/>
+                    <p>La detección de errores que realiza es gracias a que tiene la capacidad de probar procesos comerciales complejos para entornos de aplicaciones combinadas al mismo tiempo que como se mencionó anteriormente, al tener procesamiento de SAP, las pruebas incluyen el probar dicho procesamiento. También soporta pruebas “Agile-plus-DevOps" y con ayuda del procesamiento SAP se vuelven más certeras.</p>
+                    <br/><br/>
+                    <p>Por parte de la semi-automatización de código, a pesar de generar una solución sin código debido a su enfoque orientado a la experiencia del negocio y del cliente y su objetivo de lograr la excelencia en los procesos empresariales, cuenta con el soporte web y en nube con optimizaciones preconfiguradas para poder utilizarlas a lo largo del código y llegar a un resultado más acertado a la solución propuesta, además estas configuraciones son de uso común por lo que son básicamente compatibles con cualquier tipo de código para cualquier tipo de aplicación.</p>
+                    <br/><br/>
+                    <p>Para depurar el programa es necesario mencionar que cuenta con reconocimiento de objetos para SAP Fiori y se mantiene continuamente actualizado por lo que aquellos datos requeridos para la parte de procesamiento de SAP son asignados automáticamente y se va ajustando de acuerdo a las necesidades de la aplicación y de las actualizaciones.</p>
+                    <br/><br/>
+                    <p>Automatiza la documentación de la aplicación ya que descubre y genera la documentación automáticamente y autónomamente debido a la información otorgada tanto por el usuario y el procesamiento SAP. Así como es capaz de generar la documentación básica, debido a su compatibilidad con los sistemas ALM (Aplication Lifecycle Managment) y las cadenas de herramientas “DevOps” puede generar la documentación necesaria para ambas como el ciclo de vida que tendrá el sistema.</p>
+                  </font>
+                </div>
+                <center>
+                <a href="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" className={styles.link_clear} target='_blank'><Image src={auto} width={300} height={300} className={styles.imageCircle}/><br/><center><p>Haz clic en la imagen para ver el video</p></center></a><br/>
+                  </center>                
+                {/* 
+                <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+                  <source src="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" />
+                </video>
+                */}
+              </div>
+            </center>
+        </div>
+        <div className={styles.container_Y3}>
+            <center><h1 className={styles.titulos} id="finalidad">Herramientas L-CASE (Lower CASE)</h1></center>
+            <center>
+              <div className={styles.container_2}>
+                <div className={styles.container_3}>
+                  <font size="4" face="Quicksand">
+                    <p>Este tipo de herramientas CASE se dedican principalmente a: </p>
+                    <br></br>
+                    <ul>
+                      <li>Semi-automatizar la generación de código.</li>
+                      <li>Crear programas que detecten errores. </li>
+                      <li>Depurar programas o pruebas. </li>
+                      <li>Automatizar la documentación de la aplicación. </li>
+                    </ul>
+                    <br/><br/>
+                    <p>Una herramienta considerada de Lower CASE es “Worksoft” ya que permite varias de las funciones anteriores, como prueba de los anterior, la herramienta ayuda a la automatización de los desarrollos “Agil-DevOps” para aplicaciones empresariales complejas mediante el procesamiento de datos se SAP (Sistemas, Aplicaciones y Productos).</p>
+                    <br/><br/>
+                    <p>La detección de errores que realiza es gracias a que tiene la capacidad de probar procesos comerciales complejos para entornos de aplicaciones combinadas al mismo tiempo que como se mencionó anteriormente, al tener procesamiento de SAP, las pruebas incluyen el probar dicho procesamiento. También soporta pruebas “Agile-plus-DevOps" y con ayuda del procesamiento SAP se vuelven más certeras.</p>
+                    <br/><br/>
+                    <p>Por parte de la semi-automatización de código, a pesar de generar una solución sin código debido a su enfoque orientado a la experiencia del negocio y del cliente y su objetivo de lograr la excelencia en los procesos empresariales, cuenta con el soporte web y en nube con optimizaciones preconfiguradas para poder utilizarlas a lo largo del código y llegar a un resultado más acertado a la solución propuesta, además estas configuraciones son de uso común por lo que son básicamente compatibles con cualquier tipo de código para cualquier tipo de aplicación.</p>
+                    <br/><br/>
+                    <p>Para depurar el programa es necesario mencionar que cuenta con reconocimiento de objetos para SAP Fiori y se mantiene continuamente actualizado por lo que aquellos datos requeridos para la parte de procesamiento de SAP son asignados automáticamente y se va ajustando de acuerdo a las necesidades de la aplicación y de las actualizaciones.</p>
+                    <br/><br/>
+                    <p>Automatiza la documentación de la aplicación ya que descubre y genera la documentación automáticamente y autónomamente debido a la información otorgada tanto por el usuario y el procesamiento SAP. Así como es capaz de generar la documentación básica, debido a su compatibilidad con los sistemas ALM (Aplication Lifecycle Managment) y las cadenas de herramientas “DevOps” puede generar la documentación necesaria para ambas como el ciclo de vida que tendrá el sistema.</p>
+                  </font>
+                </div>
+                <center>
+                <a href="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" className={styles.link_clear} target='_blank'><Image src={auto} width={300} height={300} className={styles.imageCircle}/><br/><center><p>Haz clic en la imagen para ver el video</p></center></a><br/>
+                  </center>                
+                {/* 
+                <video autoPlay loop style={{ width: '500px', height: '500px' }}>
+                  <source src="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" />
+                </video>
+                */}
+              </div>
+            </center>
+        </div>
+        <hr className={styles.division}/>
         </center>
       </div>
       <Footy/>

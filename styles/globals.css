@@ -20,10 +20,10 @@ body::-webkit-scrollbar-button:increment,.productoRelacionadoC::-webkit-scrollba
 } 
 
 body::-webkit-scrollbar-thumb {
-  background-color: black;
-  border: 2px solid rgb(200, 200, 200);
+  background-color: white;
+  border: 2px solid black;
 }
 
 body::-webkit-scrollbar-track {
-  background-color: transparent;  
+  background-color: black;  
 }
