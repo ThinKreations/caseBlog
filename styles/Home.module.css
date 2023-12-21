@@ -96,14 +96,17 @@
 /*  CSS para  */
 .header{
   padding: 5px;
-  background-image: linear-gradient(90deg, rgba(0, 151, 93, 0.5)0%, rgba(153, 0, 0, 0.5) 100%);
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-image: linear-gradient(90deg, rgb(77, 143, 117)0%, rgb(151, 78, 78) 100%);
   color: white;
   display: flex;
-  height: 200px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 5vw;
   box-shadow: 0px 0px 10px rgb(150,150,150);
+  position:fixed;
+  width: 98%;
 }
 .footer{
   padding: 15px;
@@ -149,6 +152,22 @@
 .link_clear:hover{
   text-shadow: 0px 0px 5px rgb(220,220,220);
 }
+.btn{
+  margin-right: 5px;
+  padding: 5px;
+  font-family: Work Sans;
+  color:white;
+  background-color: transparent;
+  border: 0px;
+  font-size:16px;
+  outline: none;
+  transition: 0.2s ease-in-out;
+  border-radius: 8px;
+}
+.btn:hover{
+  background-color: rgba(200,200,200, 0.3);
+  text-shadow: 0px 0px 5px white;
+}
 
 @media screen and (max-width: 600px) {
   .footer{
@@ -161,5 +180,20 @@
   }
   .footerL{
     width: 45%;
+  }
+  .container_2{
+    width: 75vw;
+    margin-top: 5vw;
+    text-align: justify;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5vw;
+  }
+  .container_3{
+    width: 100%;
+  }
+  .image_1{
+    width: 100%;
   }
 }

@@ -10,7 +10,6 @@ export default function Home() {
       <>
       <MainHead titulo="Auto n Case Blog"/>
       <Header/>
-      <Header1/>
       <div className={styles.container}>
         <center>
         <div className={styles.content}>
@@ -19,6 +18,19 @@ export default function Home() {
           </font>
         </div>
         </center>
+        <div className={styles.container_1}>
+            <center><h1 className={styles.titulos}>Herramientas Automáticas</h1></center>
+            <center>
+              <div className={styles.container_2}>
+              <div className={styles.container_3}>
+              <font size="4" face="Quicksand" color="white">
+                <p>Una herramienta automatizada es una pieza de software que ayuda a los equipos y organizaciones a automatizar ciertas tareas que se deban realizar durante el desarrollo de un proyecto o en el dia a dia. Esto les permite reducir la necesidad de intervención humana y lograr mayor confiabilidad y velocidad en las tareas que automatizan estas herramientas. Estas herramientas mayormente son empleadas para llevar a cabo las pruebas de software y hardware (en caso de ser nesesario), durante el desarrollo de un proyecto.</p>
+              </font>
+              </div>
+                <Image src={herramientas1} className={styles.image_1}/>
+              </div>
+            </center>
+        </div>
         <div className={styles.container_1}>
             <center><h1 className={styles.titulos}>Herramientas Automáticas</h1></center>
             <center>

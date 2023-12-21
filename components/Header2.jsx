@@ -7,7 +7,7 @@ export default function Header2(){
     return(
         <>
         <div className={styles.menu}>
-            <button type="button"></button>        
+            <button type="button" className={styles.btn}></button>        
         </div>
         </>
     )
