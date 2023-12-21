@@ -3,8 +3,8 @@
   padding: 0%;
 }
 html, body{
-  background-color: rgb(220, 220, 220);
-  font-family: Work Sans;
+  background-color: rgb(200, 200, 200);
+  font-family: Quicksand;
   scroll-behavior: smooth;
 }
 body::-webkit-scrollbar {
@@ -20,10 +20,10 @@ body::-webkit-scrollbar-button:increment,.productoRelacionadoC::-webkit-scrollba
 } 
 
 body::-webkit-scrollbar-thumb {
-  background-color: #808080;
-  border: 2px solid rgb(220, 220, 220);
+  background-color: black;
+  border: 2px solid rgb(200, 200, 200);
 }
 
 body::-webkit-scrollbar-track {
-  border-radius: 10px;  
+  background-color: transparent;  
 }

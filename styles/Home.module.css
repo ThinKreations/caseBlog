@@ -79,13 +79,13 @@
   padding-top: 2vw;
   padding-bottom: 2vw;
   background-image: linear-gradient(45deg, rgb(170, 153, 1) 0%, rgb(118, 28, 141) 100%);
-  width: 100%;
+  width: 90%;
   transition:0.3s ease-in-out;
   box-shadow: 0px 0px 10px rgb(150,150,150);
 }
 .container_2{
   width: 65vw;
-  margin-top: 5vw;
+  margin-top: 2vw;
   text-align: justify;
   display: flex;
   justify-content: space-between;
@@ -94,11 +94,44 @@
 .container_3{
   width: 60%;
 }
+
+.container_Y{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    background: rgb(34,193,195);
+    background: linear-gradient(45deg, rgb(29, 154, 156) 0%, rgba(253,187,45,1) 100%);
+    width: 90%;
+    transition:0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgb(150,150,150);
+    color: white;
+}
+
+.container_Y2{
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  color:black;
+  width: 90%;
+  transition:0.3s ease-in-out;
+}
+
+.container_Y3{
+  
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  background: rgb(34,193,195);
+  background: linear-gradient(45deg, rgb(54, 57, 245) 0%, rgb(187, 29, 29) 100%);
+  width: 90%;
+  transition:0.3s ease-in-out;
+  box-shadow: 0px 0px 10px rgb(150,150,150);
+  color:white;
+}
+
 /*  CSS para  */
 .header{
-  padding: 5px;
-  padding-left: 1vw;
-  padding-right: 1vw;
   background-image: linear-gradient(90deg, rgb(77, 143, 117)0%, rgb(151, 78, 78) 100%);
   color: white;
   display: flex;
@@ -106,7 +139,7 @@
   align-items: center;
   margin-bottom: 5vw;
   position:fixed;
-  width: 98%;
+  width: 100%;
 }
 .footer{
   padding: 15px;
@@ -118,7 +151,6 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 10vh;
-  box-shadow: 0px 0px 10px rgb(150,150,150);
 }
 .footerL{
   width: 35%;
@@ -134,10 +166,16 @@
 }
 
 /* Elementos */
+.image{
+  margin: 1vw;
+}
 .image_1{
   width: 30%;
   height: 30%;
   transform: translate(0,100);
+}
+.imageCircle{
+  border-radius: 1000px;
 }
 .titulos{
   color:white;
@@ -153,22 +191,37 @@
   text-shadow: 0px 0px 5px rgb(220,220,220);
 }
 .btn{
-  margin-right: 5px;
+  margin-right: 1vw;
   padding: 5px;
-  font-family: Work Sans;
+  font-family: Consolas;
   color:white;
   background-color: transparent;
   border: 0px;
   font-size:16px;
   outline: none;
-  transition: 0.2s ease-in-out;
+  transition: 0.1s ease-in-out;
   border-radius: 8px;
 }
 .btn:hover{
   background-color: rgba(200,200,200, 0.3);
   text-shadow: 0px 0px 5px white;
 }
-
+.btn:active{
+  transform: scale(1.1);
+}
+.btnActive{
+  margin-right: 5px;
+  padding: 5px;
+  font-family: Consolas;
+  color:white;
+  background-color: rgba(200,200,200, 0.3);
+  text-shadow: 0px 0px 5px white;
+  border: 0px;
+  font-size:16px;
+  outline: none;
+  transition: 0.1s ease-in-out;
+  border-radius: 8px;
+}
 @media screen and (max-width: 600px) {
   .container{
     padding-top: 180px;
@@ -204,5 +257,11 @@
   }
   .image_1{
     width: 100%;
+  }
+  .btn{
+    margin-bottom: 10px;
+  }
+  .btn:active{
+    transform: scale(1.0);
   }
 }
