@@ -15,10 +15,10 @@ export default function Header(){
         <div className={styles.header}>
             <Image className={styles.image} src={logo} width={250} height={52} alt="Logo"/>
             <div className={styles.botonera}>
-                <Link href="/#inicio"><button type="button" className={styles.btn}>Inicio</button></Link>
-                <Link href="/#herramientas-automatizadas"  ><button type="button" className={styles.btn}>Herramientas automatizdas</button></Link>
-                <Link href="/#herramientas-case"><button type="button" className={styles.btn}>Herramientas CASE</button></Link>
-                <Link href="/links"><button type="button" className={styles.btn}>Enlaces</button></Link>
+                <Link href="/#inicio"><button type="button" className={styles.btn}><font face="Consolas">Inicio</font></button></Link>
+                <Link href="/#herramientas-automatizadas"  ><button type="button" className={styles.btn}><font face="Consolas">Herramientas automatizdas</font></button></Link>
+                <Link href="/#herramientas-case"><button type="button" className={styles.btn}><font face="Consolas">Herramientas CASE</font></button></Link>
+                <Link href="/links"><button type="button" className={styles.btn}><font face="Consolas">Enlaces</font></button></Link>
             </div>
         </div>
         </>
