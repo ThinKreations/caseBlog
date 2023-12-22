@@ -14,6 +14,8 @@ import uml from '../src/uml.png'
 import lucid from '../src/lucid.png'
 import ecomerce from '../src/ecomerce.png'
 import ird from '../src/ibm rd.png'
+import ipn from '../src/ipn.png'
+import upiicsa from '../src/upiicsa.png'
 export default function Home() {
   return (
     
@@ -218,7 +220,6 @@ export default function Home() {
               </div>
             </center>
         </div>
-        <hr className={styles.division}/>
         </center>
       </div>
       <Footy/>

@@ -15,9 +15,9 @@ export default function Header(){
         <div className={styles.header}>
             <Image className={styles.image} src={logo} width={250} height={52} alt="Logo"/>
             <div className={styles.botonera}>
-                <a href="#inicio"><button type="button" className={styles.btn}>Inicio</button></a>
-                <a href="#herramientas-automatizadas"  ><button type="button" className={styles.btn}>Herramientas automatizdas</button></a>
-                <a href="#herramientas-case"><button type="button" className={styles.btn}>Herramientas CASE</button></a>
+                <Link href="/#inicio"><button type="button" className={styles.btn}>Inicio</button></Link>
+                <Link href="/#herramientas-automatizadas"  ><button type="button" className={styles.btn}>Herramientas automatizdas</button></Link>
+                <Link href="/#herramientas-case"><button type="button" className={styles.btn}>Herramientas CASE</button></Link>
                 <Link href="/links"><button type="button" className={styles.btn}>Enlaces</button></Link>
             </div>
         </div>

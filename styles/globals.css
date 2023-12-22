@@ -6,6 +6,7 @@ html, body{
   background-color: rgb(240, 240, 240);
   font-family: Quicksand;
   scroll-behavior: smooth;
+  text-wrap: wrap;
 }
 body::-webkit-scrollbar {
   -webkit-appearance: none;

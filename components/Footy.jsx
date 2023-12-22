@@ -21,7 +21,7 @@ export default function Footy(){
                 <br/>
                 <Link href={'https://github.com/ThinKreations/caseBlog'} target="_blank" className={styles.link_clear}>Repositorio de GitHub</Link>
                 <p>Desarrollado con Next.js</p>
-                <p>CSS es mi pasión.</p>
+                
                 <b></b>
             </div>
         </div>
