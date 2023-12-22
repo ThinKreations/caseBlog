@@ -286,7 +286,7 @@
 
 @media screen and (max-width: 600px) {
   .container{
-    padding-top: 35vh;
+    padding-top: 30vh;
   }
   .header{
     display: inline;
@@ -304,6 +304,9 @@
   }
   .footerL{
     width: 45%;
+  }
+  .content{
+    width: 80vw;
   }
   .container_2{
     width: 70vw;
