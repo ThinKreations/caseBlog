@@ -6,14 +6,15 @@ import logo from '../src/logo.png'
 import { useRouter } from 'next/router';
 export default function Header(){
     const router = useRouter();
-
+    function onclic(){
+        router.push('/');
+    }
 
     return(
         <>
-        <div className={styles.header}>  
-            <center>
-                <Image className={styles.image} src={logo} width={250} height={52} alt="Logo"/>
-            </center>
+        <div className={styles.header}>
+            <a href="/#inicio"className={styles.btnLogo}>
+            </a>
             <div>
                 <a href="#inicio"><button type="button" className={styles.btn}>Inicio</button></a>
                 <a href="#herramientas-automatizadas"  ><button type="button" className={styles.btn}>Herramientas automatizdas</button></a>

@@ -238,6 +238,14 @@
   border: none;
   transition: 0.3s ease-in-out;
 }
+.btnLogo{
+  height:52px;
+  width: 250px;
+  margin: 1vw;
+  background-image: url(../src/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 
 @media screen and (max-width: 600px) {
