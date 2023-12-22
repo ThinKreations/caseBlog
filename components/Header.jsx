@@ -13,13 +13,12 @@ export default function Header(){
     return(
         <>
         <div className={styles.header}>
-            <a href="/#inicio"className={styles.btnLogo}>
-            </a>
-            <div>
+            <Image className={styles.image} src={logo} width={250} height={52} alt="Logo"/>
+            <div className={styles.botonera}>
                 <a href="#inicio"><button type="button" className={styles.btn}>Inicio</button></a>
                 <a href="#herramientas-automatizadas"  ><button type="button" className={styles.btn}>Herramientas automatizdas</button></a>
                 <a href="#herramientas-case"><button type="button" className={styles.btn}>Herramientas CASE</button></a>
-                <a href="https://example.com/"><button type="button" className={styles.btn}>Enlaces de interez</button></a>
+                <a href="/links"><button type="button" className={styles.btn}>Enlaces</button></a>
             </div>
         </div>
         </>
