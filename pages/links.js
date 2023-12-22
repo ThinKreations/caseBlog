@@ -10,11 +10,9 @@ export default function links(){
             <MainHead titulo="Auto n Case | Links"/>
             <Header/>
             <center><h1 style={{color: 'black'}}>Enlaces de interez</h1></center>
-            
-            
         </>
     )   
-}/* es style={{color: 'el color'}} son dos llaves {{}}  va*/
+}
 
 /* Recuerda que es 
 voy yasta

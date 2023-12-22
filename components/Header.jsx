@@ -18,7 +18,7 @@ export default function Header(){
                 <a href="#inicio"><button type="button" className={styles.btn}>Inicio</button></a>
                 <a href="#herramientas-automatizadas"  ><button type="button" className={styles.btn}>Herramientas automatizdas</button></a>
                 <a href="#herramientas-case"><button type="button" className={styles.btn}>Herramientas CASE</button></a>
-                <a href="/links"><button type="button" className={styles.btn}>Enlaces</button></a>
+                <Link href="/links"><button type="button" className={styles.btn}>Enlaces</button></Link>
             </div>
         </div>
         </>
