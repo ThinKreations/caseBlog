@@ -16,6 +16,8 @@ import ecomerce from '../src/ecomerce.png'
 import ird from '../src/ibm rd.png'
 import ipn from '../src/ipn.png'
 import upiicsa from '../src/upiicsa.png'
+import Progress from '../src/Progress.png'
+import Work from '../src/Work.webp'
 export default function Home() {
   return (
     
@@ -109,14 +111,25 @@ export default function Home() {
               <div className={styles.container_2}>
                 <div className={styles.container_3}>
                   <font size="4" face="Quicksand">
-                    <p>{`Como estudiante de informática, el concepto de “integrated case” puede entenderse como un caso integral o un escenario completo de aplicación. En el contexto de desarrollo de software, esto implica abordar y resolver un problema o desarrollar una funcionalidad completa que involucra múltiples aspectos del sistema.`}<br/><br/>{`  Imaginemos que estamos trabajando en un proyecto de una aplicación de comercio electrónico. Un “integrated case” en este contexto podría ser la implementación completa de la funcionalidad de carrito de compras, desde la adición de productos hasta el proceso de pago. Esto no solo implica codificar las funciones de agregar y eliminar elementos del carrito, sino también gestionar el inventario, calcular el total de la compra y garantizar una experiencia de usuario fluida.`}<br/><br/>{`En resumen, abordar un “integrated case” como alumno de informática implica no solo escribir código para una parte específica del sistema, sino también comprender y trabajar en conjunto con otras áreas relacionadas para lograr una solución integral y funcional. Es una oportunidad para aplicar conocimientos en diversos aspectos del desarrollo de software y comprender la interconexión entre diferentes módulos o características en un proyecto.`}</p>
+                    <p>{`Como estudiante de informática, el concepto de “integrated case” puede entenderse como un caso integral o un escenario completo de aplicación. En el contexto de desarrollo de software, esto implica abordar y resolver un problema o desarrollar una funcionalidad completa que involucra múltiples aspectos del sistema.`}<br/><br/>{`  Imaginemos que estamos trabajando en un proyecto de una aplicación de comercio electrónico. Un “integrated case” en este contexto podría ser la implementación completa de la funcionalidad de carrito de compras, desde la adición de productos hasta el proceso de pago. Esto no solo implica codificar las funciones de agregar y eliminar elementos del carrito, sino también gestionar el inventario, calcular el total de la compra y garantizar una experiencia de usuario fluida.`}<br/><br/>{`Un ejemplo de una herramienta integrated sería "Progress" ya que permite desarrollar el código de la aplicación y administrarla eficientemente, la herramienta cuenta con la posibilidad de ditar la interfaz de las aplicaciones para volverla más amigable con el usuario así como administrar las estadisticas y la seguridad del sitio. Que la herramienta permita la gestión de las estadísticas y el acceso al código para el caso del carro de compras cuando los usuarios realicen alguna compra facilitará la actualización del inventario.`}<br/><br/>{`En resumen, abordar un “integrated case” como alumno de informática implica no solo escribir código para una parte específica del sistema, sino también comprender y trabajar en conjunto con otras áreas relacionadas para lograr una solución integral y funcional. Es una oportunidad para aplicar conocimientos en diversos aspectos del desarrollo de software y comprender la interconexión entre diferentes módulos o características en un proyecto.`}</p>
                     </font>
                 </div>
                 {/* <a href="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" className={styles.link_clear} target='_blank'><Image src={auto} width={300} height={300} className={styles.imageCircle}/><br/><center><p>Haz clic en la imagen para ver el video</p></center></a><br/> */}
                 <div className={styles.container_4}>
                 <div style={{display: 'flex', justifyContent:'center'}}>
                   <Image src={ecomerce} className={styles.image_2}/>
-                </div><br/><br/><br/><br/><br/>
+                </div><br/><br/><br/>
+                <div style={{display: 'flex', justifyContent:'center'}}>          
+                  
+                  <a href="https://www.progress.com/"className={styles.image_2} target='_blank'>
+                    <Image src={Progress} className={styles.image_2}/>
+                  </a>
+                </div>
+                <center>
+                  <br></br>
+                  {'     Progress'}
+                </center>
+                <br/><br/><br/><br/>
                 <div style={{display: 'flex', justifyContent:'center'}}>
                   <Image src={icase} className={styles.image_2}/>
                 </div>
@@ -146,7 +159,9 @@ export default function Home() {
               <div className={styles.container_2}>
                 <div className={styles.container_4}>
                 <center>
+                <a href='https://www.lucidchart.com/' target='_blank' className={styles.image_1}>
                   <Image src={lucid} className={styles.image_1} style={{borderRadius: '20px'}}/>
+                </a>
                   <br/><p>Lucidchart</p>
                 </center>
                 </div>
@@ -165,7 +180,9 @@ export default function Home() {
                 </div>
                 <div className={styles.container_4}>
                 <center>
+                  <a href='https://staruml.io/' target='_blank' className={styles.image_1}>
                   <Image src={uml} className={styles.image_1} width={300}/>
+                  </a>                  
                   <br/><p>Star UML</p>
                 </center>
                 </div>
@@ -174,7 +191,10 @@ export default function Home() {
               <div className={styles.container_2}>
                 <div className={styles.container_4}>
                   <center>
+                    <a href='https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.2?topic=engineering-requirements-management-doors-overview' target='_blank' className={styles.image_1}>
                     <Image src={ird} className={styles.image_1} width={300}/>
+                    </a> 
+                    
                     <br/><p>IBM Rational Doors</p>
                   </center>
                 </div>
@@ -201,20 +221,22 @@ export default function Home() {
                       <li>Automatizar la documentación de la aplicación. </li>
                     </ul>
                     <br/><br/>
-                    <p>Una herramienta considerada de Lower CASE es “Worksoft” ya que permite varias de las funciones anteriores, como prueba de los anterior, la herramienta ayuda a la automatización de los desarrollos “Agil-DevOps” para aplicaciones empresariales complejas mediante el procesamiento de datos se SAP (Sistemas, Aplicaciones y Productos).</p>
+                    {'Una herramienta considerada de Lower CASE es “Worksoft” ya que permite varias de las funciones anteriores, como prueba de los anterior, la herramienta ayuda a la automatización de los desarrollos “Agil-DevOps” para aplicaciones empresariales complejas mediante el '}<a href="https://www.worksoft.com/applications/erp/sap-test-automation" className={styles.link_clear}><u>{'procesamiento de datos de SAP (Sistemas, Aplicaciones y Productos).'}</u></a>
                     <br/><br/>
                     <p>{`La detección de errores que realiza es gracias a que tiene la capacidad de probar procesos comerciales complejos para entornos de aplicaciones combinadas al mismo tiempo que como se mencionó anteriormente, al tener procesamiento de SAP, las pruebas incluyen el probar dicho procesamiento. También soporta pruebas “Agile-plus-DevOps" y con ayuda del procesamiento SAP se vuelven más certeras.`}</p>
                     <br/><br/>
-                    <p>Por parte de la semi-automatización de código, a pesar de generar una solución sin código debido a su enfoque orientado a la experiencia del negocio y del cliente y su objetivo de lograr la excelencia en los procesos empresariales, cuenta con el soporte web y en nube con optimizaciones preconfiguradas para poder utilizarlas a lo largo del código y llegar a un resultado más acertado a la solución propuesta, además estas configuraciones son de uso común por lo que son básicamente compatibles con cualquier tipo de código para cualquier tipo de aplicación.</p>
+                    <p>Por parte de la semi-automatización de código, a pesar de generar una solución sin código debido a su enfoque orientado a la experiencia del negocio y del cliente y su objetivo de lograr la excelencia en los procesos empresariales, <a href="https://www.worksoft.com/applications/erp/oracle-testing" className={styles.link_clear}><u>cuenta con el soporte web y en nube con optimizaciones preconfiguradas</u></a> para poder utilizarlas a lo largo del código y llegar a un resultado más acertado a la solución propuesta, además estas configuraciones son de uso común por lo que son básicamente compatibles con cualquier tipo de código para cualquier tipo de aplicación.</p>
                     <br/><br/>
                     <p>Para depurar el programa es necesario mencionar que cuenta con reconocimiento de objetos para SAP Fiori y se mantiene continuamente actualizado por lo que aquellos datos requeridos para la parte de procesamiento de SAP son asignados automáticamente y se va ajustando de acuerdo a las necesidades de la aplicación y de las actualizaciones.</p>
                     <br/><br/>
-                    <p>Automatiza la documentación de la aplicación ya que descubre y genera la documentación automáticamente y autónomamente debido a la información otorgada tanto por el usuario y el procesamiento SAP. Así como es capaz de generar la documentación básica, debido a su compatibilidad con los sistemas ALM (Aplication Lifecycle Managment) y las cadenas de herramientas “DevOps” puede generar la documentación necesaria para ambas como el ciclo de vida que tendrá el sistema.</p>
+                    <p><a href="https://www.worksoft.com/process-intelligence/process-documentation" className={styles.link_clear}><u>Automatiza la documentación de la aplicación</u></a> ya que descubre y genera la documentación automáticamente y autónomamente debido a la información otorgada tanto por el usuario y el procesamiento SAP. Así como es capaz de generar la documentación básica, debido a su compatibilidad con los sistemas ALM (Aplication Lifecycle Managment) y las cadenas de herramientas “DevOps” puede generar la documentación necesaria para ambas como el ciclo de vida que tendrá el sistema.</p>
                   </font>
                 </div>
                 <div className={styles.container_4}>
                 <center>
-                  <a href="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" className={styles.link_clear} target='_blank'><Image src={auto} width={300} height={300} className={styles.imageCircle}/><br/><center><p>Haz clic en la imagen para ver el video</p></center></a><br/>
+                  <a href="https://www.worksoft.com/" className={styles.link_clear} target='_blank'><Image src={Work} width={300}/></a>
+                  <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                  <a href="https://www.worksoft.com/resources/watch-video-worksoft-connective-automation-platform-2021?wvideo=1sl6tqgbiq" className={styles.link_clear} target='_blank'><Image src={auto} width={300} height={300} className={styles.imageCircle}/><br/><center><p>Haz clic en la imagen para ver el video</p></center></a><br/>                  
                 </center>
                 </div>
               </div>

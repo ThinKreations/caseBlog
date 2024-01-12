@@ -60,6 +60,24 @@ export default function links(){
                 <li>
                     <a href='https://www.monografias.com/trabajos73/herramientas-case-proceso-desarrollo-software/herramientas-case-proceso-desarrollo-software2 ' target='_blank' className={styles.link}><b>https://www.monografias.com/trabajos73/herramientas-case-proceso-desarrollo-software/herramientas-case-proceso-desarrollo-software2 </b></a>
                 </li>
+                <li>
+                    <a href='https://www.progress.com/'  target='_blank' className={styles.link}><b>https://www.progress.com/</b></a>
+                </li>
+                <li>
+                    <a href='https://www.worksoft.com/applications/erp/sap-test-automation'  target='_blank' className={styles.link}><b>https://www.worksoft.com/applications/erp/sap-test-automation</b></a>
+                </li>
+                <li>
+                    <a href='https://www.worksoft.com/process-intelligence/process-documentation'  target='_blank' className={styles.link}><b>https://www.worksoft.com/process-intelligence/process-documentation</b></a>
+                </li>
+                <li>
+                    <a href='https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.2?topic=engineering-requirements-management-doors-overview'  target='_blank' className={styles.link}><b>https://www.ibm.com/docs/en/engineering-lifecycle-management-suite/doors/9.7.2?topic=engineering-requirements-management-doors-overview</b></a>
+                </li>
+                <li>
+                    <a href='https://staruml.io/'  target='_blank' className={styles.link}><b>https://staruml.io/</b></a>
+                </li>
+                <li>
+                    <a href='https://www.worksoft.com/applications/erp/oracle-testing'  target='_blank' className={styles.link}><b>https://www.worksoft.com/applications/erp/oracle-testing</b></a>
+                </li>
             </ul>
             <br/>
 

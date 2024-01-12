@@ -214,6 +214,7 @@
 .image_2{
   width: 60%;
   height: 60%;  
+  margin-left: 50px;
 }
 .imageCircle{
   border-radius: 1000px;
